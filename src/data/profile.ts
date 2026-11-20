@@ -283,22 +283,16 @@ export const profile = {
   /** TODO: ganti dengan sertifikat aslimu (ini masih contoh) */
   certificates: [
     {
-      title: 'Belajar Membuat Front-End Web untuk Pemula',
-      issuer: 'Dicoding',
-      date: '2023-08',
-      credentialUrl: 'https://www.dicoding.com/',
+      title: 'Software Development',
+      issuer: 'Indonesian Professional Certification Authority',
+      date: '2022-08',
+      credentialUrl: 'https://drive.google.com/file/d/1ZLkYVHnanmr9L5oilpWkCXscT9JBK8vs/view?usp=sharing',
     },
     {
-      title: 'Contoh Sertifikat Analisis Data',
-      issuer: 'Penerbit',
-      date: '2024-05',
-      credentialUrl: '',
-    },
-    {
-      title: 'Contoh Sertifikat Microsoft Office',
-      issuer: 'Penerbit',
-      date: '2023-11',
-      credentialUrl: '',
+      title: 'Menjadi Front-End Web Developer Expert',
+      issuer: 'Dicoding Academy',
+      date: '2022-11',
+      credentialUrl: 'https://www.dicoding.com/certificates/72ZD99R8QPYW',
     },
   ] as Certificate[],
 
