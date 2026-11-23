@@ -44,7 +44,20 @@ export function ProjectCover({
 /** Certificate preview: real image if provided, otherwise a typographic certificate card. */
 export function CertificateCard({ cert, className = '' }: { cert: Certificate; className?: string }) {
   if (cert.image) {
-    return <img src={asset(cert.image)} alt={cert.title} loading="lazy" className={`h-full w-full object-cover ${className}`} />
+    // Fit the whole certificate (portrait or landscape) in the frame,
+    // with a blurred copy of itself filling the leftover space.
+    const src = asset(cert.image)
+    return (
+      <div className={`relative h-full w-full overflow-hidden bg-bg-3 ${className}`}>
+        <img src={src} alt="" aria-hidden loading="lazy" className="absolute inset-0 h-full w-full scale-110 object-cover opacity-50 blur-xl" />
+        <img
+          src={src}
+          alt={cert.title}
+          loading="lazy"
+          className="relative h-full w-full object-contain drop-shadow-[0_10px_20px_rgb(0_0_0/0.45)]"
+        />
+      </div>
+    )
   }
   return (
     <div className={`relative flex h-full w-full flex-col justify-between overflow-hidden bg-[#efe6d6] p-[7%] text-[#1d1914] ${className}`}>

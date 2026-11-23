@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { profile } from '../data/profile'
 import { useLang } from '../i18n/LanguageProvider'
 import { fmtMonth, pad2 } from '../lib/format'
+import { asset } from '../lib/asset'
 import { SectionHead } from '../components/SectionHead'
 import { CertificateCard } from '../components/Artwork'
 import { TiltCard } from '../components/TiltCard'
@@ -64,9 +65,14 @@ export function Certificates() {
       <Sheet open={openIdx !== null} onClose={() => setOpenIdx(null)} label={t('sec_certificates')}>
         {cur && (
           <div>
-            <div className="aspect-[1.414] w-full overflow-hidden rounded-lg">
-              <CertificateCard cert={cur} />
-            </div>
+            {cur.image ? (
+              // real scan/photo: show it at its own shape so nothing is cropped
+              <img src={asset(cur.image)} alt={cur.title} className="mx-auto max-h-[75vh] w-auto max-w-full rounded-lg shadow-[0_30px_60px_-25px_rgb(0_0_0/0.9)]" />
+            ) : (
+              <div className="aspect-[1.414] w-full overflow-hidden rounded-lg">
+                <CertificateCard cert={cur} />
+              </div>
+            )}
             <h3 className="display mt-8 text-[clamp(1.8rem,4vw,2.8rem)] text-ink">{cur.title}</h3>
             <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-line pt-6">
               <div>
