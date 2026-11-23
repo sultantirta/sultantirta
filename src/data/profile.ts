@@ -95,11 +95,11 @@ export const profile = {
   timezone: "Asia/Jakarta",
   timezoneLabel: "WIB",
   /** TODO: ganti dengan nomor aslimu (tampil di halaman) */
-  phone: "+62 812-0000-0000",
+  phone: "+62 812-8341-5519",
   /** TODO: nomor WhatsApp tanpa '+' atau spasi, dipakai untuk link wa.me */
-  whatsapp: "6281200000000",
+  whatsapp: "6281283415519",
   /** TODO: ganti dengan email aslimu */
-  email: "hello@example.com",
+  email: "sultantirtaa@gmail.com",
   openToWork: true,
   /** foto profil di /public, mis. '/images/me.jpg'. Kosongkan untuk sampul inisial. */
   photo: "/images/me.jpg",
