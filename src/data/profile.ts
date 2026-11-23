@@ -355,6 +355,12 @@ export const profile = {
       },
       role: { id: "Inisiator & Pengembang", en: "Initiator & Developer" },
       tools: ["Google Sheets", "Google Apps Script", "AI"],
+      cover: "/images/portfolio/dashboard-monitoring-riset-dan-peneliti.png",
+      gallery: [
+        "/images/portfolio/dashboard-monitoring-riset-dan-peneliti-2.png",
+        "/images/portfolio/dashboard-monitoring-riset-dan-peneliti-3.png",
+        "/images/portfolio/dashboard-monitoring-riset-dan-peneliti-4.png",
+      ],
       liveUrl:
         "https://script.google.com/macros/s/AKfycbxCF_WzQqih2p1bIQPylErkIyeNetDNyk-4owNVWKmCWoxRl5BQDD_0ESKrh28ecKAtyA/exec",
       repoUrl: "",
