@@ -302,13 +302,13 @@ export const profile = {
    */
   portfolio: [
     {
-      slug: 'monitoring-kinerja-ai',
-      title: 'Monitoring Kinerja AI',
-      year: '2024',
+      slug: 'monitoring-riset-dan-peneliti',
+      title: 'Monitoring Riset dan Peneliti',
+      year: '2026',
       category: { id: 'Sistem Digital Berbasis AI', en: 'AI-based Digital System' },
       summary: {
-        id: 'Sistem real-time untuk memonitor kinerja dan efisiensi operasional.',
-        en: 'A real-time system for monitoring performance and operational efficiency.',
+        id: 'Sistem real-time untuk memonitor kinerja dan efisiensi operasional riset.',
+        en: 'A real-time system for monitoring performance and operational efficiency research.',
       },
       description: {
         id: 'Sistem digital berbasis AI yang saya inisiasi dan kembangkan di PT Riset Perkebunan Nusantara. Sistem ini memantau kinerja secara real-time sehingga progres kegiatan lebih mudah dipantau dan proses operasional menjadi lebih efisien.',
@@ -316,47 +316,9 @@ export const profile = {
       },
       role: { id: 'Inisiator & Pengembang', en: 'Initiator & Developer' },
       tools: ['Google Sheets', 'Google Apps Script', 'AI'],
-      liveUrl: '',
+      liveUrl: 'https://script.google.com/macros/s/AKfycbxCF_WzQqih2p1bIQPylErkIyeNetDNyk-4owNVWKmCWoxRl5BQDD_0ESKrh28ecKAtyA/exec',
       repoUrl: '',
       accent: '#c9824a',
-    },
-    {
-      slug: 'dashboard-register-kajian',
-      title: 'Dashboard Register Kajian',
-      year: '2025',
-      category: { id: 'Dashboard Pelaporan Manajemen', en: 'Management Reporting Dashboard' },
-      summary: {
-        id: 'Pantau status kajian internal secara real-time oleh Direksi dan tim.',
-        en: 'Real-time tracking of internal studies for the Board and the team.',
-      },
-      description: {
-        id: 'Platform dashboard untuk Tim Kajian Internal. Register kajian dan progresnya ditampilkan dalam satu dashboard, sehingga Direksi dan tim dapat memantau status setiap kajian secara real-time dan pelaporan manajemen menjadi lebih cepat.',
-        en: 'A dashboard platform for the Internal Study Team. The study register and its progress live in one dashboard, so the Board and the team can follow each study in real time and management reporting gets faster.',
-      },
-      role: { id: 'Sekretariat & Pengembang', en: 'Secretariat & Developer' },
-      tools: ['Google Sheets', 'Google Apps Script', 'Dashboard'],
-      liveUrl: '',
-      repoUrl: '',
-      accent: '#5f7a94',
-    },
-    {
-      slug: 'nutrisi-ibu-hamil',
-      title: 'Nutrisi Ibu Hamil',
-      year: '2023',
-      category: { id: 'Progressive Web App', en: 'Progressive Web App' },
-      summary: {
-        id: 'Kalkulator nutrisi ibu hamil untuk membantu mencegah stunting.',
-        en: 'A nutrition calculator for pregnant women to help prevent stunting.',
-      },
-      description: {
-        id: 'Tugas Akhir D3 Sistem Informasi: front-end web untuk menghitung kebutuhan nutrisi ibu hamil sebagai langkah pencegahan stunting. Dibangun sebagai Progressive Web App di Dicoding Academy sehingga bisa dipasang dan diakses seperti aplikasi.',
-        en: 'My diploma final project: a front-end web app that calculates nutritional needs for pregnant women as a step toward preventing stunting. Built as a Progressive Web App at Dicoding Academy, so it can be installed and used like an app.',
-      },
-      role: { id: 'Front-End Developer', en: 'Front-End Developer' },
-      tools: ['HTML', 'CSS', 'JavaScript', 'PWA'],
-      liveUrl: '',
-      repoUrl: '',
-      accent: '#7d8f6a',
     },
   ] as Project[],
 }
