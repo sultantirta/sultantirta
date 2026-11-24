@@ -366,5 +366,34 @@ export const profile = {
       repoUrl: "",
       accent: "#c9824a",
     },
+    {
+      slug: "tim-kajian-internal",
+      title: "Tim Kajian Internal",
+      year: "2026",
+      category: {
+        id: "Sistem Digital Berbasis AI",
+        en: "AI-based Digital System",
+      },
+      summary: {
+        id: "Dashboard web untuk sekretariat Tim Kajian Internal PT RPN, yang memantau setiap kajian dari permohonan sampai rekomendasi ke Direksi.",
+        en: "A web app for monitoring every research project in the Directorate of Research, Innovation, and Sustainability, both internal and externally funded. One dashboard shows each project's physical progress, budget spending, technology readiness, and history.",
+      },
+      description: {
+        id: "Dashboard ini menggantikan pencatatan kajian yang sebelumnya tersebar di banyak tempat. Fiturnya meliputi register kajian per tahapan, rekomendasi dan keputusan Direksi, jadwal rapat, register SOP, arsip dokumen, survei kepuasan divisi pemohon, dan ekspor evidence ke Excel. Ada dua peran, yaitu Admin dan Direksi, serta pilihan tampilan Light/Dark. Dibangun dengan Vite dan JavaScript, lalu di-deploy ke GitHub Pages. Data di versi demo adalah data fiktif.",
+        en: "TThe dashboard replaces scattered review records with a single workspace. It covers a stage-based review register, board recommendations and decisions, meetings, an SOP register, a document archive, satisfaction surveys for requesting divisions, and Excel export of report evidence. It has two roles, Admin and Director, plus Light/Dark themes. Built with Vite and JavaScript and deployed to GitHub Pages. The demo uses fictional data.",
+      },
+      role: { id: "Inisiator & Pengembang", en: "Initiator & Developer" },
+      tools: ["Google Sheets", "Google Apps Script", "HTML/CSS/JS"],
+      cover: "/images/portfolio/tim-kajian-internal-1.png",
+      gallery: [
+        "/images/portfolio/tim-kajian-internal-2-dark.png",
+        "/images/portfolio/tim-kajian-internal-2-light.png",
+        "/images/portfolio/tim-kajian-internal-3.png",
+        "/images/portfolio/tim-kajian-internal-4.png",
+      ],
+      liveUrl: "https://sultantirta.github.io/tkin-rpn/",
+      repoUrl: "",
+      accent: "#c9824a",
+    },
   ] as Project[],
 };
