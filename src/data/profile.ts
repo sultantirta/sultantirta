@@ -346,15 +346,15 @@ export const profile = {
         en: "AI-based Digital System",
       },
       summary: {
-        id: "Sistem real-time untuk memonitor kinerja dan efisiensi operasional riset.",
-        en: "A real-time system for monitoring performance and operational efficiency research.",
+        id: "Web app untuk memantau seluruh riset di Direktorat Riset, Inovasi, dan Sustainability, baik riset internal maupun eksternal. Satu dashboard menampilkan progres fisik, realisasi anggaran, tingkat kesiapan teknologi, dan perjalanan setiap riset.",
+        en: "A web app for monitoring every research project in the Directorate of Research, Innovation, and Sustainability, both internal and externally funded. One dashboard shows each project's physical progress, budget spending, technology readiness, and history.",
       },
       description: {
-        id: "Sistem digital berbasis AI yang saya inisiasi dan kembangkan di PT Riset Perkebunan Nusantara. Sistem ini memantau kinerja secara real-time sehingga progres kegiatan lebih mudah dipantau dan proses operasional menjadi lebih efisien.",
-        en: "An AI-based digital system I initiated and built at PT Riset Perkebunan Nusantara. It tracks performance in real time, making progress easier to follow and day-to-day operations more efficient.",
+        id: "Dashboard ini menggantikan pemantauan riset yang sebelumnya tersebar di banyak file. Data tersimpan di Google Sheets dan ditampilkan lewat web app yang ringan dan responsif. Pimpinan dan peneliti bisa melihat tanpa login, sedangkan admin memakai kode akses untuk menambah dan memperbarui data.",
+        en: "The dashboard replaces research tracking that used to be spread across many files. Data is stored in Google Sheets and presented through a lightweight, responsive web app. Leaders and researchers can view it without logging in, while admins use an access code to add and update records.",
       },
       role: { id: "Inisiator & Pengembang", en: "Initiator & Developer" },
-      tools: ["Google Sheets", "Google Apps Script", "AI"],
+      tools: ["Google Sheets", "Google Apps Script", "HTML/CSS/JS"],
       cover: "/images/portfolio/dashboard-monitoring-riset-dan-peneliti.png",
       gallery: [
         "/images/portfolio/dashboard-monitoring-riset-dan-peneliti-2.png",
